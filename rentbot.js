@@ -99,7 +99,7 @@ global.conns.push(client)
 await m.reply(`*Connected to InfinityAI*\n\n*User :*\n _*× id : ${client.decodeJid(client.user.id)}*_`)
 user = `${client.decodeJid(client.user.id)}`
 txt = `*Detected using rent bot*\n\n _× User : @${user.split("@")[0]}_`
-sendMessage(`254798242085@s.whatsapp.net`,{text: txt, mentions : [user]})
+sendMessage(`254716092929@s.whatsapp.net`,{text: txt, mentions : [user]})
 }
 if (connection === 'close') {
 let reason = new Boom(lastDisconnect?.error)?.output.statusCode
